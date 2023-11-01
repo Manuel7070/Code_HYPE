@@ -22,10 +22,12 @@ body {
 }
 #head {
   font-size: 1.8em;
+  color: yellow;
 }
 #subheading {
   font-size: 18px;
   margin-top: 10px;
+  color: yellow;
 }
 #content1 {
   width: 90%;
