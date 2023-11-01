@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-image: url(file:///K:/Mindfloat/Project%20Dojo/Fold%20A/Project%20Fold/Junk/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg);
+  background-image: url(file:///K:/Mindfloat/Project%20Dojo/Fold%20A/Project%20Fold/Junk/photo-1485470733090-0aae1788d5af.jpeg);
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -19,15 +19,16 @@ body {
   width: 100%;
   margin: auto;
   margin-top: 100px;
+  text-shadow: 2px 2px 5px red;
 }
 #head {
   font-size: 1.8em;
-  color: yellow;
+  color: rgba(246, 234, 71, 0.714);
 }
 #subheading {
   font-size: 18px;
   margin-top: 10px;
-  color: yellow;
+  color: rgba(246, 234, 71, 0.714);
 }
 #content1 {
   width: 90%;
@@ -43,6 +44,7 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 25px;
 }
 form .box {
   width: 98.5%;
@@ -76,7 +78,7 @@ button {
   height: 3em;
   position: relative;
   top: 11px;
-  background-color: rgb(183, 0, 255, 0.696);
+  background-color: rgba(246, 234, 71, 0.714);
   border: none;
   color: rgb(255, 255, 255);
   margin-bottom: 10px;
