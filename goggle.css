@@ -154,7 +154,7 @@ header section img {
   border-radius: 50%;
   border: 2px soild red;
 }
-
+/*This section is for Responsiveness*/
 @media (min-width: 540px) {
   footer > section:first-child {
     flex-direction: row;
