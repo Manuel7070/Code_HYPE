@@ -45,10 +45,4 @@ Contributions are welcome! If you'd like to contribute by adding code examples, 
 5. Push to the branch (`git push origin feature/your-branch-name`).
 6. Create a new Pull Request.
 
-## License
-
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
-
-Feel free to connect with me if you have any questions, or suggestions, or just want to chat about coding!
-
 Happy coding! 🚀
