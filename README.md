@@ -7,8 +7,6 @@ This repository is dedicated to showcasing the various programming languages I'm
 - [About](#about)
 - [Languages](#HTML,CSS,)
 - [Projects](#projects)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About
 
@@ -18,7 +16,6 @@ The Code_HYPE repository is a personal space where I document my journey in lear
 
 At the moment, this repository includes:
 
-- H
 - [HTML, CSS](folder2/)
 - [Language 3](folder3/)
 
