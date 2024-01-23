@@ -21,16 +21,6 @@ At the moment, this repository includes:
 
 _(Add more languages as you progress.)_
 
-## Projects
-
-Here are some of the projects or exercises I've worked on:
-
-- [Project A](folder1/project1/)
-- [Project 2](folder2/project2/)
-- [Exercise 1](folder3/exercise1/)
-
-_(Feel free to expand this section with more details as you add more projects.)_
-
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute by adding code examples, suggesting improvements, or fixing issues, please follow these steps:
