@@ -3,10 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background: #0f172a;
   color: #bdc1c6;
-  /*padding: 14px;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -92,11 +92,13 @@ input {
   font-size: 1.2em;
   cursor: pointer;
 }
+
 .iconButtonContainer {
   display: flex;
   align-items: center;
   gap: 14px;
 }
+
 .searchButtonsContainer button {
   padding: 10px 14px;
   border-radius: 4px;
@@ -105,6 +107,7 @@ input {
   color: white;
   cursor: pointer;
 }
+
 .searchButtonsContainer {
   display: flex;
   align-items: center;
@@ -149,34 +152,16 @@ footer > section:last-child {
 .footerLink a {
   cursor: pointer;
 }
+
 header section img {
   max-width: 40px;
   border-radius: 50%;
   border: 2px soild red;
 }
+
 /*This section is for Responsiveness*/
 @media (min-width: 540px) {
   footer > section:first-child {
     flex-direction: row;
   }
 }
-/*.searchBar:hover {
-  border-color: transparent;
-  background: #334155;
-}
-
-input {
-  background: transparent;
-  outline: none;
-  border: unset;
-  color: white;
-  flex: 1;
-}
-
-.searchButtonsContainer {
-  padding: 6px 10px;
-  border-radius: 8px;
-  background: #334155;
-  border: unset;
-  color: white;
-}*/
