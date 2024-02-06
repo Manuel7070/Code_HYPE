@@ -51,4 +51,5 @@ form .box {
   height: 2.8em;
   position: relative;
   bottom: 10px;
-  border: 
+  border: 0;
+}
