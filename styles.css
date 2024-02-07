@@ -36,7 +36,8 @@ body {
 }
 form {
   background-color: rgba(0, 0, 0, 0.7);
-  width: 54%;
+  /* Reduced the width from 54% to 50% */
+  width: 50%;
   margin: auto;
   margin-top: 10px;
   padding-bottom: 60px;
