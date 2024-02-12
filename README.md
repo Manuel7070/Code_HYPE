@@ -15,9 +15,3 @@ The repository is organized into different directories, each representing a spec
 ## Contributing
 
 While this repository primarily serves as a personal learning journal, I welcome constructive feedback, suggestions, and collaboration. If you notice any errors, improvements, or have ideas for projects, feel free to open an issue or submit a pull request.
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE). Feel free to fork and adapt the code to your own learning journey.
-
-Happy coding! 🚀
