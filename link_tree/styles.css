@@ -1,13 +1,15 @@
+/* Resetting styles for all elements */
 * {
-  font-family: "Open Sans", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; /* Setting default font for all elements */
+  margin: 0; /* Resetting margin */
+  padding: 0; /* Resetting padding */
+  box-sizing: border-box; /* Ensuring box-sizing includes borders and padding in element's total width and height */
 }
 
+/* Applying specific font family to headers and elements with class 'poppins' */
 h1,
 h2,
 h3,
 .poppins {
-  font-family: "poppins", sans-serif;
+  font-family: "poppins", sans-serif; /* Setting font family for headers and elements with class 'poppins' */
 }
