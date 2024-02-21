@@ -1,3 +1,4 @@
+```css
 /* Resetting styles for all elements */
 * {
   font-family: "Open Sans", sans-serif; /* Setting default font for all elements */
@@ -14,135 +15,158 @@ h3,
   font-family: "poppins", sans-serif; /* Setting font family for headers and elements with class 'poppins' */
 }
 
+/* Styles for the body element */
 body {
-  color: white;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 42px;
-  padding: 40px 14px;
-  min-height: 100vh;
-  overflow-y: scroll;
+  color: white; /* Text color */
+  position: relative; /* Positioned relative to its normal position */
+  display: flex; /* Establishes a flex container */
+  flex-direction: column; /* Items are laid out in a column */
+  justify-content: center; /* Aligns flex items along the main axis */
+  gap: 42px; /* Spacing between flex items */
+  padding: 40px 14px; /* Padding */
+  min-height: 100vh; /* Minimum height of the viewport */
+  overflow-y: scroll; /* Vertical scrollbar appears when content overflows */
 }
 
+/* Styles for the background image container */
 .backgroundImg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -2;
+  position: fixed; /* Positioned relative to the viewport */
+  top: 0; /* Aligns to the top edge of the containing element */
+  left: 0; /* Aligns to the left edge of the containing element */
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  z-index: -2; /* Behind all other elements */
 }
 
+/* Styles for the background image */
 .backgroundImg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  object-fit: cover; /* Scales the image as large as possible */
 }
 
+/* Styles for the header element */
 header {
-  text-align: center;
-  gap: 14px;
+  text-align: center; /* Centers text */
+  gap: 14px; /* Spacing between child elements */
 }
 
+/* Styles for certain elements */
 body,
 header,
 main,
 .backgroundImg {
-  display: flex;
-  flex-direction: column;
+  display: flex; /* Establishes a flex container */
+  flex-direction: column; /* Items are laid out in a column */
 }
 
+/* Styles for the image within the header */
 header img {
-  max-width: 140px;
-  width: 100%;
-  margin: 0 auto;
-  border-radius: 100%;
-  padding-bottom: 8px;
+  max-width: 140px; /* Maximum width */
+  width: 100%; /* Full width */
+  margin: 0 auto; /* Center horizontally */
+  border-radius: 100%; /* Circular border */
+  padding-bottom: 8px; /* Bottom padding */
 }
 
+/* Styles for marked text within the header */
 header mark {
-  border-radius: 4px;
-  padding: 2px 4px;
-  background: yellow;
-  color: #0f172a;
+  border-radius: 4px; /* Rounded corners */
+  padding: 2px 4px; /* Padding */
+  background: yellow; /* Background color */
+  color: #0f172a; /* Text color */
 }
 
+/* Styles for header text */
 header h1 {
-  font-size: 0.8em;
-  font-weight: 400;
+  font-size: 0.8em; /* Font size */
+  font-weight: 400; /* Font weight */
 }
 
+/* Styles for header paragraphs */
 header p {
-  font-size: 0.9em;
-  font-weight: 700;
+  font-size: 0.9em; /* Font size */
+  font-weight: 700; /* Font weight */
 }
 
+/* Styles for the main content */
 main {
-  gap: 14px;
+  gap: 14px; /* Spacing between child elements */
 }
 
+/* Styles for links */
 .link {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px 14px;
-  border: 1px solid #334155;
-  border-radius: 8px;
-  width: 420px;
-  max-width: 100%;
-  margin: 0 auto;
-  transition-duration: 200ms;
-  cursor: pointer;
-  overflow: hidden;
-  color: white;
-  text-decoration: none;
+  position: relative; /* Positioned relative to its normal position */
+  display: flex; /* Establishes a flex container */
+  align-items: center; /* Aligns flex items along the cross axis */
+  justify-content: space-between; /* Spreads out the flex items */
+  padding: 8px 14px; /* Padding */
+  border: 1px solid #334155; /* Border */
+  border-radius: 8px; /* Rounded corners */
+  width: 420px; /* Width */
+  max-width: 100%; /* Maximum width */
+  margin: 0 auto; /* Center horizontally */
+  transition-duration: 200ms; /* Transition duration */
+  cursor: pointer; /* Cursor type */
+  overflow: hidden; /* Overflow behavior */
+  color: white; /* Text color */
+  text-decoration: none; /* Removes underline */
 }
 
+/* Styles for links on hover */
 .link:hover {
-  border-color: yellow;
+  border-color: yellow; /* Border color on hover */
 }
 
+/* Styles for the background of links */
 .linkBackground {
-  position: absolute;
-  inset: 0;
-  background: #020617;
-  opacity: 0.6;
-  z-index: -1;
+  position: absolute; /* Positioned relative to its closest positioned ancestor */
+  inset: 0; /* Insets (top, right, bottom, left) */
+  background: #020617; /* Background color */
+  opacity: 0.6; /* Transparency */
+  z-index: -1; /* Behind other elements */
 }
 
+/* Styles for paragraphs within links */
 .link p {
-  font-size: 0.8em;
+  font-size: 0.8em; /* Font size */
 }
 
+/* Media query for screens with a minimum width of 640px */
 @media (min-width: 640px) {
+  /* Styles for body within the media query */
   body {
-    gap: 64px;
-    padding: 80px 14px;
+    gap: 64px; /* Increased spacing between child elements */
+    padding: 80px 14px; /* Increased padding */
   }
 
+  /* Styles for header and main within the media query */
   header,
   main {
-    gap: 24px;
+    gap: 24px; /* Increased spacing between child elements */
   }
 
+  /* Styles for header image within the media query */
   header img {
-    max-width: 200px;
-    padding-bottom: 24px;
+    max-width: 200px; /* Increased maximum width */
+    padding-bottom: 24px; /* Increased bottom padding */
   }
 
+  /* Styles for header h1 within the media query */
   header h1 {
-    font-size: 1em;
-    font-weight: 400;
-  }
-  header p {
-    font-size: 1.1em;
-    font-weight: 700;
+    font-size: 1em; /* Increased font size */
+    font-weight: 400; /* Font weight */
   }
 
+  /* Styles for header p within the media query */
+  header p {
+    font-size: 1.1em; /* Increased font size */
+    font-weight: 700; /* Font weight */
+  }
+
+  /* Styles for paragraphs within links within the media query */
   .link p {
-    font-size: 1.1em;
+    font-size: 1.1em; /* Increased font size */
   }
 }
+```
