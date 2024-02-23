@@ -103,7 +103,7 @@ input.larger {
   width: 20px;
   height: 20px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   form {
     width: 100%;
     margin: auto;
