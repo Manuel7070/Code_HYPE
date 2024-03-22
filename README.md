@@ -16,4 +16,4 @@ The repository is thoughtfully organized into different directories, each dedica
 
 ## Contributing
 
-While this repository primarily serves as my personal learning journal, I wholeheartedly encourage constructive feedback, suggestions, and collaboration. Whether you spot an error, envision an improvement, or have an ingenious project idea, your contributions are highly valued. Feel free to open an issue or submit a pull request, and let's embark on this coding adventure together!
+While this repository primarily serves as my personal learning journal, I wholeheartedly encourage constructive feedback, suggestions, and collaboration. Whether you spot an error, envision an improvement, or have an ingenious project idea, your contributions are highly valued. Feel free to open an issue or submit a pull request.
